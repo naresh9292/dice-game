@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+.container {
+  @apply w-4/5 m-auto 
+}
+
+.container-item {
+  @apply flex space-x-2.5 mt-50
+}
+
+.dice-image {
+  @apply w-160 h-130
+}
+
+.home-text h1 {
+  @apply text-9xl font-extrabold mt-40
+}
+
+.home-text button {
+  @apply border bg-black text-white px-16.5 py-2.5 ml-128 rounded mt-5
+}
+
+.game-head {
+  @apply flex justify-between mt-16
+}
+
+.sec-one {
+  @apply  mt-16 ml-180
+}
+
+.btn-1 {
+  @apply border rounded w-55 mt-10 py-2 ml-2
+}
+
+.btn-2 {
+  @apply border rounded bg-black text-white w-55 mt-5 py-2  ml-2
+}
+
+.rules {
+  @apply mt-16 ml-160
+}
+
+.total h1 {
+  @apply text-7xl ml-10
+}
+
+.total p {
+  @apply text-2xl 
+}
+
+.num-1 {
+  @apply size-15 border flex justify-center items-center font-bold text-xl
+}
